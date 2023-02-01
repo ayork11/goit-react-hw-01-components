@@ -1,0 +1,29 @@
+.friendsContainer {
+    width: 400px;
+    background-color: white;
+}
+
+.friendsContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.onlineStatus {
+    color: green
+}
+
+.friendStatus {
+    border-radius: 50%;
+    width: 25px;
+}
+
+ul {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+}

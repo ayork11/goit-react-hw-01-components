@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 1000px;
+    height: 600px;
+}
+
+.statisticsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 100%;
+    height: 400px;
+}
+
+.uploadStatsContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 800px;
+    height: 150px;
+    margin: 0px;
+}
+
+.listStatsContainer {
+    background-color: orangered;
+    display: flex;
+    flex-direction: row;
+    width: 783px;
+    padding: 8px;
+    margin: 0px;
+    height: 125px;
+}
+
+.listStatsItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 100%;
+    margin-inline: -8px, -8px;
+}

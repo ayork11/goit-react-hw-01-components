@@ -1,0 +1,36 @@
+.transactionsContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    width: 100%;
+}
+
+.titlesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: deepskyblue;
+    border: 1px solid;
+    width: 100%;
+}
+
+.idContent {
+    display: flex;
+    align-items: center;
+}
+
+
+table,
+th,
+td {
+    border: 1px solid;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
